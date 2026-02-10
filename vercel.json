@@ -37,8 +37,8 @@
       "dest": "/js/$1"
     },
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1",
+      "src": "/api/([^./]+)",
+      "dest": "/api/$1.js",
       "headers": {
         "Cache-Control": "s-maxage=300, stale-while-revalidate=60"
       }

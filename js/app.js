@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const timestampElement = document.getElementById('timestamp');
     
     // Base URL for our API
-    const apiBaseUrl = '/api/news';
+    const apiBaseUrl = '/api/news.js';
     
     // Initialize the app
     function init() {
