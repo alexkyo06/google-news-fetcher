@@ -1,0 +1,22 @@
+{
+  "name": "google-news-fetcher",
+  "version": "1.0.0",
+  "description": "A simple Google News fetcher deployed on Vercel",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": ["news", "google-news", "rss", "vercel"],
+  "author": "小爪 🦞",
+  "license": "MIT"
+}
